@@ -1,0 +1,13 @@
+# Template only: replace public-author and URL fields before renaming CITATION.cff.
+cff-version: 1.2.0
+message: "Please cite the archived version used for your analysis."
+type: software
+title: "RAISING downstream analysis"
+version: 1.0.0
+date-released: 2026-10-24
+authors:
+  - family-names: "REPLACE_WITH_PUBLIC_AUTHOR_SURNAME"
+    given-names: "REPLACE_WITH_PUBLIC_AUTHOR_GIVEN_NAME"
+repository-code: "https://github.com/REPLACE_WITH_OWNER/REPLACE_WITH_REPOSITORY"
+license: MIT
+# Add the actual version-specific DOI after archive registration.
