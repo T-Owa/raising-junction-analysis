@@ -1,0 +1,3 @@
+library_side,primer,sequence_5_to_3,donor_forward_start0,donor_forward_end0,strand,used_in_analysis
+3p,P3,GCTACTCTGGGCTCGATCATCCA,718,741,+,yes
+5p,P3,GCACGCCGATCCGACACACTGAC,65,88,-,yes

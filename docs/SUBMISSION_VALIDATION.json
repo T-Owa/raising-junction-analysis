@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-04",
+  "software_version": "1.0.0",
+  "repository": "https://github.com/T-Owa/raising-junction-analysis",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "architecture": "AMD64"
+  },
+  "scope": "12 aggregation tests and 4 synthetic-generator tests rerun; full Linux engine suites and external-aligner round trip not rerun in this check.",
+  "checks": {
+    "submission_raising_aggregation": {
+      "status": "passed",
+      "tests": 12
+    },
+    "submission_raising_demo": {
+      "status": "passed",
+      "tests": 4
+    }
+  },
+  "scientific_file_sha256": {
+    "examples/make_demo.py": "05ee8f79ce623b3b7241a0b06ad483c8a1938755711dc82260f3c2d2e1a91ed4",
+    "pipelines/fourway/engine_v1_1/raising_concatemer_screen.py": "ba7ade85b562aa1f3db8e98e3b3e1fdfed290f58c09e15e5d49807022055195c",
+    "pipelines/fourway/engine_v1_1/raising_fullrun.py": "639babd54a006c58456f8e66b7ee83017047e2641e49166d9d047d2221c79685",
+    "pipelines/fourway/engine_v1_1/raising_fullrun_report.py": "18221dedae5054e2d4ab6c84e03d961dd95306ed0bf3c0812ce24c6643715707",
+    "pipelines/fourway/engine_v1_1/raising_threeway_classify.py": "e1b18ee3083bb5e5a93c25387f25e828d20c9c959905a7e148904ca2de740980",
+    "pipelines/fourway/legacy_v1/raising_concatemer_screen.py": "ba7ade85b562aa1f3db8e98e3b3e1fdfed290f58c09e15e5d49807022055195c",
+    "pipelines/fourway/legacy_v1/raising_fullrun.py": "e6eb0c4c4d0b0ccd442cb3eaa1524ffb797fca259774621d5dbc70c4380efeb8",
+    "pipelines/fourway/legacy_v1/raising_fullrun_report.py": "f8ab0b0105f10d8207e122671982d35a63caa1b797631d4157a319b02f330d4e",
+    "pipelines/fourway/legacy_v1/raising_threeway_classify.py": "e1b18ee3083bb5e5a93c25387f25e828d20c9c959905a7e148904ca2de740980",
+    "pipelines/fourway/raising_batch.py": "bf357280c16357c96d20c1348f1748ca6369d67e805737095c2b857cefbef4f8",
+    "pipelines/fourway/tests/test_batch.py": "fefdf512750e1a9edd00fd805161757ee21ec43b1fb7da4690b98144e45c0b2b",
+    "pipelines/junction/raising_junction_batch.py": "caf40d35ac46236d5e0ca9fffe0eae458ecce77045607b55e5fa04bca7b63bde",
+    "pipelines/junction/raising_junction_pilot_v1/junction_core.py": "55b1a5228821814563e9231f4a28c636138352be2b89bd2554212d6cd900495b",
+    "pipelines/junction/raising_junction_pilot_v1/raising_junction_batch.py": "4bbe1e382401b9bb2e65e1879c050583d0dab1836287aec46f3bdfe8154681d4",
+    "pipelines/junction/raising_junction_pilot_v1/raising_junction_pilot.py": "e331cd0d176252130914585811d57885048750b94fde37f97a39f4b589cfbcc8",
+    "pipelines/junction/raising_junction_pilot_v1/summarize_junctions.py": "f897c329a0bfab326e64b30801fbf481dbcbe7b43dd3e16e597bd6f0b9633974",
+    "pipelines/junction/raising_junction_pilot_v1/tests/test_junction.py": "c7af0edb713c68ca87fa3c8ca3fc24ced8f6e8471bd1457233697075f3743075",
+    "pipelines/junction/raising_junction_refine_v1_1/precheck_candidate_table.py": "4d3915f2f3cc6144a55cc486b8c9f8340e9a6808e84faa5dd22172594573ad58",
+    "pipelines/junction/raising_junction_refine_v1_1/raising_junction_refine.py": "9deaf3e3e5c2c74b8df9dd3f43e98fb35ecd44222e74a687edcff8fdd7590559",
+    "pipelines/junction/raising_junction_refine_v1_1/refine_alignment.py": "13996d534dba592636e9d937868a72a3e4e76f1c7445185426dec4a63abfe533",
+    "pipelines/junction/raising_junction_refine_v1_1/refine_templates.py": "2930407f78b4891ff5ec93ec2fae68d753cda9352063b3bcc98d4ec3ed1ee90a",
+    "pipelines/junction/raising_junction_refine_v1_1/support/junction_core.py": "55b1a5228821814563e9231f4a28c636138352be2b89bd2554212d6cd900495b",
+    "pipelines/junction/raising_junction_refine_v1_1/support/pilot_io.py": "e331cd0d176252130914585811d57885048750b94fde37f97a39f4b589cfbcc8",
+    "pipelines/junction/raising_junction_refine_v1_1/tests/test_refine.py": "5d8bcdba18b74dafcea713f86c094f9b05296bc8441611d4de18a9e65b6358d4",
+    "pipelines/junction/tests/test_batch.py": "58a5edca629e7fac9151ea540cc15ff86a02127667d1dfff04fda9504487cbaa",
+    "reference/primers.csv": "9d2b571c3f3c01c9ac54e73f5214fdacaa6775e206418db8c6a56073c464faae",
+    "reference/RI_donor_800bp.fasta": "45285dc7b10df018146ede9d5dde7bc64f4db2d99f31d8b6c82f11b57e236061",
+    "tests/run_all.py": "79edd8baa17cba6d6d504a9dbb8f41845d6cba1018aa843b6c7469b3b77192ff",
+    "tests/test_demo.py": "0a003b2f39ef84863159d34a62645a327f360d5ab2d5fdcb21f78dd427ed19c7",
+    "tests/test_external_roundtrip.py": "3ccf1ed4d15ec4a60c35e1db4c152ce01cc1526d16143ad47f0106af2f96e721",
+    "tests/test_figure_data.py": "e90d3c1aeecccdca8e8a34ea0b8884d03c477a0de78da6e46523c3d23c97792d",
+    "tools/check_environment.py": "917cd9c81cb344d6dd95483acf90bce32edb43a6817d9fe7094e021bbd657f8c",
+    "tools/prepare_figure_data.py": "bd0838854d77ef1f8dfd9ff8f75b2b9e2b14f3ac3c5934224940204c3af9c589"
+  }
+}
